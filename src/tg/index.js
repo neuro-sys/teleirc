@@ -22,7 +22,6 @@ var init = function(msgCallback) {
 
             tgUtil.parseMsg(msg, myUser, tg, function(message) {
                 var tgGroupReadOnly = message.channel.tgGroupReadOnly;
-                var text = msg.text;
                 var isBotHighlighted = false;
 
                 if (message) {
