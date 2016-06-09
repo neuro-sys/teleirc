@@ -109,7 +109,7 @@ config.channels = [
         ircChanReadOnly: true,          /* Optional */
         ircChanOverrideReadOnly: false, /* Optional - override readonly by highlighting the bot */
         tgGroup: 'Tg_Group_3',
-        tgGroupReadOnly: true           /* Optional */
+        tgGroupReadOnly: true,          /* Optional */
         tgGroupOverrideReadOnly: false, /* Optional - same as ircChanOverrideReadOnly */
     },
 
